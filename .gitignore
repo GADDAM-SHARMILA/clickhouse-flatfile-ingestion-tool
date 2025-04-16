@@ -1,0 +1,28 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Uploaded files directory
+uploads/
+
+# Environment variables (if you use dotenv later)
+.env
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environment (if created)
+venv/
+env/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# CSV or export data (optional)
+*.csv
