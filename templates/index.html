@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>Ingestion Tool</title></head>
+<body>
+<h2>Upload CSV to ClickHouse</h2>
+<form action="/upload" method="POST" enctype="multipart/form-data">
+  File: <input type="file" name="file"><br>
+  Host: <input type="text" name="host"><br>
+  Port: <input type="text" name="port"><br>
+  Database: <input type="text" name="database"><br>
+  User: <input type="text" name="user"><br>
+  JWT Token: <input type="password" name="jwt"><br>
+  Table: <input type="text" name="table"><br>
+  <input type="submit" value="Upload">
+</form>
+
+<h2>Download ClickHouse Table to CSV</h2>
+<form action="/download" method="POST">
+  Host: <input type="text" name="host"><br>
+  Port: <input type="text" name="port"><br>
+  Database: <input type="text" name="database"><br>
+  User: <input type="text" name="user"><br>
+  JWT Token: <input type="password" name="jwt"><br>
+  Table: <input type="text" name="table"><br>
+  <input type="submit" value="Download">
+</form>
+</body>
+</html>
